@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+
+
+  <title>Agência busca certa</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+      <link rel="stylesheet" href="../framework-front-end/foundation5/css/foundation.css" />
+    <script src="../framework-front-end/foundation5/js/modernizr.js"></script>
+
+</head>
+<body>
+  <div class="header"><h1>Agência busca certa</h1></div>
+  <div class="content">
+  <h2>Aproximando pessoas</h2>
+
+  <p>Compartilhe sua história de desencontro pessoal:</p>
+  <form method="post" action="registro-relato.php">
+    <label for="primeironome">Primeiro nome:</label>
+    <input type="text" name="primeironome" /><br />
+
+    <label for="segundonome">Segundo Nome:</label>
+    <input type="text" name="segundonome" /><br />
+
+    <label for="email">Qual é o seu endereço de e-mail?</label>
+    <input type="text" name="email" /><br />
+
+    <label for="ultimolugar">Qual foi o ultimo lugar que se encontraram?</label>
+    <input type="text" name="ultimolugar" /><br />
+
+    <label for="ultimocontato">Quanto tempo faz do ultimo contato?</label>
+    <input type="text" name="ultimocontato" /><br />
+
+    <label for="motivo">Qual o motivo do afastamento?</label>
+    <input type="text" name="motivo" /><br />
+
+    <label for="descrevapessoa">Descreva a pessoa:</label>
+    <input type="text" name="descrevapessoa" size="32" /><br />
+
+    <label for="ligapessoa">Qual a sua ligação com a pessoa que procura?</label>
+    <input type="text" name="ligapessoa" size="32" /><br />
+
+    <label for="reencontrodesfavoravel">Deseja reencontrá-la mesmo e situação desfavorável? </label>
+    sim <input name="reencontrodesfavoravel" type="radio" value="sim" />
+    Não <input name="reencontrodesfavoravel" type="radio" value="não" /><br />
+
+
+
+    <label for="mais">Qualquer coisa que você queira acrescentar:</label>
+    <textarea name="mais"></textarea><br />
+
+    <input type="submit" value="Enviar informações" name="submit" />
+  </form>
+  </div>
+</body>
+</html>

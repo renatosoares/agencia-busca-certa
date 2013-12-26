@@ -1,0 +1,17 @@
+form label {
+  display: inline-block;
+  width: 225px;
+  font-weight: bold;
+}
+.header{
+	padding-top: 10px;
+	height: 120px;
+	margin-bottom: 50px;
+	background-color: #eee;
+}
+.content{
+	width: 640px;
+	padding-left: 5%;
+
+
+}
